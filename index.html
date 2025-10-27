@@ -4,18 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Air Baloon</title>
+    <title>My project- arrays</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="box">
-        <button id="back" class="btn">Back</button>
-        <img id="picture" src="https://cdn.glitch.com/b429c750-9053-4503-9c9e-796f793d4ff7%2Fbaloon1.jpg?v=1631301369245" alt="airBaloon">
-        <button id="next" class="btn">Next</button>
+    <div class="header">
+    <h1>Bar & Lounge</h1>
     </div>
+    <div class="header">
+    <h2>Which cocktail matches your personality?</h2>
+    </div>
+    <div class="container">
+        <div class=" item one selected">
+        <h4>Margarita</h4>
+        <p class="par">You're very energetic,outgoing and comfortable being the center of attention.</p>
+        </div>
+        <div class="item two">
+            <h4>Martini</h4>
+            <p class="par">You're very talkative and have very good linguistic skills.</p>
+        </div>
+
+        <div class="item three">
+            <h4>Red wine</h4>
+            <p class="par">Likely to identify as adventurous,humble,and organized.</p>
+        </div>
+
+        <div class="item four">
+            <h4>Mojito</h4>
+            <p class="par">You enjoy gourmet experiences and have patience.</p>
+
+        </div>
+        <div class="item five">
+            <h4>Pina Colada</h4>
+            <p class="par">People like to be around you as you make them smile.</p>
+        </div>
+
+        <div class="item six">
+            <h4>Long Island Iced Tea</h4>
+            <p class="par">You're ambitious,bold,flavorful, and no joke...</p>
+        </div>
+
+        <div class="item seven">
+            <h4>Whiskey</h4>
+            <p class="par">It's a drink of confident person.</p>
+        </div>
+    </div>
+    <div class="header">
+        <h3>Book your Night Out</h3>
+    </div>
+    <form
+  action="https://formspree.io/f/mgerrbbg"
+  method="POST"
+    >
+  <div class="header">
+  <label>
+    Your email:
+    <input type="email" class="text-input" name="_replyto" placeholder="Your e-mail..." required="">
+  </label>
+  </div>
+  <div class="header">
+  <label>
+    Your message:
+    <textarea class="text-input" name="message" placeholder="Type your message" required=""></textarea>
+  </label>
+  </div>
+  <br>
+  <!-- your other form fields go here -->
+  <div class="header">
+  <button class="btn" type="submit">Send</button>
+  </div>
+</form>
     <script src="script.js"></script>
 </body>
 </html>
