@@ -19,26 +19,26 @@ h2{
 }
 
 .one{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2Fmargarita.jpg?v=1631302982102);
+    background-image: url(_margarita.jpg);
  
 }
 .two{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2Fmartini.jpg?v=1631302995937);
+    background-image: url(_martini.jpg);
 }
 .three{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2FredWine.jpg?v=1631303021033);
+    background-image: url(_redWine.jpg);
 }
 .four{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2Fmojito.jpg?v=1631303001431);
+    background-image: url(_mojito.jpg);
 }
 .five{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2FpinaColada.jpg?v=1631303015765);
+    background-image: url(_pinaColada.jpg);
 }
 .six{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2FlongIslandIcedTea.jpg?v=1631302990566);
+    background-image: url(_longIslandIcedTea.jpg);
 }
 .seven{
-    background-image: url(https://cdn.glitch.com/2f993e70-dba2-45fe-9508-ec8bbc222a60%2Fwhiskey.jpg?v=1631303025483);
+    background-image: url(_whiskey);
 }
 .container{
     display:flex;
